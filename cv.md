@@ -27,3 +27,95 @@ I am constantly learning new technologies and ways of working to keep abreast of
 - Git, Github
 
 - Figma
+
+## Code example:
+**parseInt() reloaded KATA from CODEWARS:**  Convert string representing numbers in words to integers. Valid numbers range from "zero" to 1 million. Optional "and" in some cases. All input numbers are valid. Examples: "one" => 1, "twenty" => 20, "two hundred forty-six" => 246, "seven hundred eighty-three thousand nine hundred and nineteen" => 783919.
+
+```function parseInt(s) {
+  // Map English words for numbers to their corresponding values
+  const numberWords = {
+    zero: 0,
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    five: 5,
+    six: 6,
+    seven: 7,
+    eight: 8,
+    nine: 9,
+    ten: 10,
+    eleven: 11,
+    twelve: 12,
+    thirteen: 13,
+    fourteen: 14,
+    fifteen: 15,
+    sixteen: 16,
+    seventeen: 17,
+    eighteen: 18,
+    nineteen: 19,
+    twenty: 20,
+    thirty: 30,
+    forty: 40,
+    fifty: 50,
+    sixty: 60,
+    seventy: 70,
+    eighty: 80,
+    ninety: 90,
+    hundred: 100,
+    thousand: 1000,
+    million: 1000000
+  };
+
+  // Split input string into an array of words
+  const words = s.match(/\w+/g);
+
+  // Check if the number is negative
+  const isNegative = words[0] === 'minus';
+
+  // Accumulate values for each "block" of numbers
+  let subtotal = 0;
+  let total = 0;
+
+  // Loop over words in the input string
+  words.reduce((previous, word) => {
+    // Skip the word "and"
+    if (word === 'and') {
+      return previous;
+    }
+
+    // Check if the word is a valid number word
+    if (!numberWords.hasOwnProperty(word)) {
+      throw new Error(`Invalid word: ${word}`);
+    }
+
+    const value = numberWords[word];
+
+    // Handle "hundred", "thousand", and "million"
+    if (value >= 1000) {
+      total += subtotal * value;
+      subtotal = 0;
+    }
+    // Handle numbers between 100 and 999
+    else if (value >= 100) {
+      subtotal *= value;
+    }
+    // Handle numbers less than 100
+    else {
+      subtotal += value;
+    }
+
+    return word;
+  }, '');
+
+  // Add the final subtotal to the total
+  total += subtotal;
+
+  // Handle negative numbers
+  if (isNegative) {
+    total *= -1;
+  }
+
+  return total;
+}
+```
