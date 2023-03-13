@@ -4,10 +4,10 @@
 
 ______
  
- ## Contact information:
-  ***Phone***: +996 555 960 890
-  ***Email***: pavel.hvan@keiin.kg
-  ***[LinkedIn](https://www.linkedin.com/in/pkhvan/)***
+## Contact information:
+***Phone***: +996 555 960 890
+***Email***: pavel.hvan@keiin.kg
+***[LinkedIn](https://www.linkedin.com/in/pkhvan/)***
 
   ____
 
