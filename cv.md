@@ -119,3 +119,13 @@ I am constantly learning new technologies and ways of working to keep abreast of
   return total;
 }
 ```
+
+## Experience:
+
+- **Keiin International University 2018-2022**
+
+Project [Mogo](https://github.com/Nazzemax/Mogo) used technologies HTML, CSS, Jquery
+
+Project [Blitz](https://github.com/Nazzemax/blitzWebsite) used technologies HTML, CSS, Jquery
+
+Project [Simple clock](https://github.com/Nazzemax/simpleClock) used technologies HTML, CSS, Javascript
