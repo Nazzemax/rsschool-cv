@@ -131,3 +131,11 @@ Project [Mogo](https://github.com/Nazzemax/Mogo) used technologies HTML, CSS, Jq
 Project [Blitz](https://github.com/Nazzemax/blitzWebsite) used technologies HTML, CSS, Jquery
 
 Project [Simple clock](https://github.com/Nazzemax/simpleClock) used technologies HTML, CSS, Javascript
+
+## Languages:
+
+- ***English:*** - Upper-Intermediate according to the online test at EF SET [www.efset.org](https://www.efset.org/cert/pEfc8q)
+
+- ***Russian:*** - Native
+
+- **Korean:** - Elementary
