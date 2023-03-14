@@ -33,7 +33,8 @@ I am constantly learning new technologies and ways of working to keep abreast of
 ## Code example:
 **parseInt() reloaded KATA from CODEWARS:**  Convert string representing numbers in words to integers. Valid numbers range from "zero" to 1 million. Optional "and" in some cases. All input numbers are valid. Examples: "one" => 1, "twenty" => 20, "two hundred forty-six" => 246, "seven hundred eighty-three thousand nine hundred and nineteen" => 783919.
 
-```function parseInt(s) {
+```
+function parseInt(s) {
   // Map English words for numbers to their corresponding values
   const numberWords = {
     zero: 0,
