@@ -12,6 +12,8 @@ ______
 
 ***[LinkedIn](https://www.linkedin.com/in/pkhvan/)***
 
+***Discord:*** Nazzemax #8716
+
   ____
 
 ### About myself:
