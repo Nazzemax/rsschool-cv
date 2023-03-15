@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Nazzemax.github.io/rsschool-cv/cv
