@@ -23,7 +23,7 @@ I am constantly learning new technologies and ways of working to keep abreast of
 
 - HTML5, CSS3, SASS
 
-- Javascript, React, Node JS
+- Javascript, Typescript, React, Node JS, Redux, Redux Toolkit, RTK query, PHP, Python
 
 - Git, Github
 
